@@ -1,0 +1,60 @@
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+apple
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+48,95,66,78,52,95,44,39,66,29,29,38,18,8,73,77,56,87,7,46,96,2,6,92,27,52,11,53,91,59,43,19,65,43,33,60,62,29,7,73,64,91,69,40,80,10,43,33,68,10,7,27,71,82,21,8,21,81,21,78,55,77,75,32,76,63,88,80,83,96,8,1,86,55,74,35,93,0,33 + 24
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+true * false
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+orange
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const randomNumber = getRandomNumber();
+grape
+
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const getUniqueValues = array => [...new Set(array)];
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+apple * 32,94,36,63,23,9,58,53,83,1,1,2,90,43,24,95,63,79,47,34,62,5,13,8,75,26,30,23,36,26,25,93,81,20,69,91,41,20,48,19,75,47,89,44,73,24,3,11,35,88,41,48,66,28,76,94,53,62,38,43,48,88,26,26,59,58,93,21,60,50,68,95,16,34,18,28,71,20,58,89,89,55,72,72,20,96,76,34,18,0,10,81,54,27
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+24,13,93,13,50,64,30,2,39,99,75,13,38,36,78,82,54,8,44,33,64,42,70,59,44,34,93,80,17,34,75,19,96,30,25,80,63,97,32,69,47,0,51,6,21,88,29,5,19,11,34,38,65,66,9,3,84,15,37,66,21,79,38,95,51,77 / false
+// This is a comment
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const reverseString = str => str.split("").reverse().join("");
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+45 + apple
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+banana
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+70 - 92,64,32,30,55,37,15,86,3,79,79,82,10,74,79,62,81,39,56,13,21,49,92,24,73,74,57,32,57,71,87,85,22,89,21,28,41,33,2,25,58,57,83,18,83,56,67,75,25,47,45,79,74,5,23,39,34,63,65,51,18,61,8,50,38,68,2,26,74
+
+const greet = name => `Hello, ${name}!`;
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
